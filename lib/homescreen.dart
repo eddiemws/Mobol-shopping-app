@@ -37,6 +37,7 @@ class HomeScreenState extends State<HomeScreen>
     ).animate(_animationController);
     super.initState();
   }
+  
 
   @override
   void dispose() {
