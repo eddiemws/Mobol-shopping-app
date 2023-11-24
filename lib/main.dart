@@ -5,6 +5,9 @@ import 'package:login_page/splashscreen.dart';
 //import 'login.dart';
 //import 'registration.dart';
 
+void main() {
+  runApp(const MyApp());
+}
 
 
 
