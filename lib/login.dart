@@ -7,6 +7,7 @@ void main() {
   runApp(
     const MaterialApp(),
   );
+  }
 
 
 class LoginPage extends StatefulWidget {
