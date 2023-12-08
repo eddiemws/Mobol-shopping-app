@@ -2,11 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:login_page/registration.dart';
 
 //import 'registration.dart';
-void main() {
-  runApp(
-    const MaterialApp(),
-  );
-  }
+
 
 
 
