@@ -3,7 +3,11 @@ import 'package:login_page/registration.dart';
 
 //import 'registration.dart';
 
-
+void main() {
+  runApp(
+    const MaterialApp(),
+  );
+  }
 
 
 class LoginPage extends StatefulWidget {
