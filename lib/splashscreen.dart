@@ -9,16 +9,7 @@ void main() => runApp(
 class SplashScreen extends StatelessWidget {
   const SplashScreen({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'Animated Page',
-      theme: ThemeData(primarySwatch: Colors.orange),
-      home: const AnimatedPage(),
-    );
-  }
-}
+
 
 class AnimatedPage extends StatefulWidget {
   const AnimatedPage({super.key});
