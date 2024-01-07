@@ -1,13 +1,4 @@
-List<Map<String, dynamic>> sectionList = [
-  {
-    'sectionTitle': 'P.a.n.t.s.',
-    'items': [
-      {
-        'image': 'assets/images/pants1.jpeg',
-        'title': 'LOUIS VUITTON',
-        'subtitle': '1300/=',
-        'leading': 'Icons.abc',
-      },
+
       {
         'image': 'assets/images/pants2.jpg',
         'title': 'DOLCE. GABBANA',
