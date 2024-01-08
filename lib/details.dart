@@ -77,4 +77,27 @@ class DetailScreen extends StatelessWidget {
           const SizedBox(
             height: 5,
           ),
+           SizedBox(
+            height: 50,
+            width: 100,
+            child: ElevatedButton(
+              style: ButtonStyle(
+                shadowColor: MaterialStateProperty.all(Colors.greenAccent),
+                elevation: MaterialStateProperty.all(20),
+                backgroundColor: MaterialStateProperty.all(Colors.green),
+              ),
+              onPressed: () {},
+              child: const Row(
+                children: [
+                  Icon(Icons.attach_money),
+                  Text('Buy'),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+}
          
